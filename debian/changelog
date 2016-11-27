@@ -1,0 +1,5 @@
+corecluster-ssh (16.11.01) unstable; urgency=low
+
+  * Initial package structure
+
+ -- Maciej Nabozny <maciej.nabozny@cloudover.io> 24 Nov 2016 10:00:00 +0200

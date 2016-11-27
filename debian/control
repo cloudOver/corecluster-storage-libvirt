@@ -1,0 +1,14 @@
+Source: corecluster-ssh
+Section: contrib
+Priority: extra
+Maintainer: Maciej Nabozny <maciej.nabozny@cloudover.io>
+Build-Depends: debhelper (>= 8.0.0), dh-systemd
+Standards-Version: 3.9.4
+Homepage: http://cloudover.org/corecluster/
+
+Package: corecluster-ssh
+Architecture: all
+Depends: corenetwork
+Description: SSH storage for CoreCluster
+ This package contains drivers and agents for CoreCluster to support
+ simple ssh storage.
