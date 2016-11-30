@@ -23,7 +23,7 @@ import re
 import time
 
 from corecluster.models.core.vm import VM
-from corecluster.agents.storage_libvirt import AgentThread as StorageAgent
+from storage_libvirt import AgentThread as StorageAgent
 from corecluster.agents.base_agent import BaseAgent
 from corecluster.exceptions.agent import *
 from corenetwork.utils.logger import log
