@@ -1,4 +1,4 @@
-corecluster-storage-libvirt (16.11.06) unstable; urgency=low
+corecluster-storage-libvirt (16.12.01) stable; urgency=low
 
   * Initial package structure
 
