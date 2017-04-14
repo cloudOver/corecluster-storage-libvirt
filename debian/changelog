@@ -1,3 +1,10 @@
+corecluster-storage-libvirt (17.04.01) stable; urgency=low
+
+  * GNU AGPL v3 License
+
+ -- Maciej Nabozny <maciej.nabozny@cloudover.io> 14 Apr 2017 10:00:00 +0200
+
+
 corecluster-storage-libvirt (16.12.01) stable; urgency=low
 
   * Initial package structure
