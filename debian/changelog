@@ -1,5 +1,6 @@
-corecluster-storage-libvirt (17.04.01) stable; urgency=low
+corecluster-storage-libvirt (17.04.02) stable; urgency=low
 
+  * Fixed task image:detach
   * GNU AGPL v3 License
 
  -- Maciej Nabozny <maciej.nabozny@cloudover.io> 14 Apr 2017 10:00:00 +0200

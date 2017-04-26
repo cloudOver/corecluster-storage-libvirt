@@ -228,7 +228,8 @@ class AgentThread(BaseAgent):
             raise TaskError('image_attached')
 
         for vm in image.vm_set.all():
-            if not vm.in_state('closed') and not task.ignore_errors:
+            if not vm.in_state('closed'):
+                task.ignore_errors = True
                 raise TaskError('image_attached')
 
         conn = libvirt.open('qemu:///system')
