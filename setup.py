@@ -10,7 +10,7 @@ def version():
 setup(
   name = 'corecluster-storage-libvirt',
   packages = find_packages(exclude=['config', 'config.*']),
-  version = '17.04.02',
+  version = '17.04.03',
   description = 'Libvirt storage backend for CoreCluster',
   author = 'Maciej Nabozny',
   author_email = 'maciej.nabozny@cloudover.io',
