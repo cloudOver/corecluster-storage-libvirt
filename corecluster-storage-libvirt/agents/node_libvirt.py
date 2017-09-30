@@ -288,8 +288,8 @@ class AgentThread(BaseAgent):
 
     def wake_up(self, task):
         node = task.get_obj('Node')
-        if node.has_prop('mac'):
-            system.call(['wakeonlan', node.get_prop('mac')])
+        if node.mac != '':
+            system.call(['wakeonlan', node.mac])
             if node.in_state('suspend'):
                 time.sleep(config.get('core', 'NODE_WAKEUP_TIME'))
                 node.start()
