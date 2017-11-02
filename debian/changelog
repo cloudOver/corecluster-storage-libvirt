@@ -1,3 +1,10 @@
+corecluster-storage-libvirt (17.11.01) stable; urgency=low
+
+  * Wakeonlan dependency
+
+ -- Maciej Nabozny <maciej.nabozny@cloudover.io> 02 Nov 2017 10:00:00 +0200
+
+
 corecluster-storage-libvirt (17.04.03) stable; urgency=low
 
   * Fixed task image:detach
