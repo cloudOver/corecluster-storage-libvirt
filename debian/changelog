@@ -1,6 +1,7 @@
-corecluster-storage-libvirt (17.11.01) stable; urgency=low
+corecluster-storage-libvirt (17.11.02) stable; urgency=low
 
   * Wakeonlan dependency
+  * Fixed storage mount for disabled storages
 
  -- Maciej Nabozny <maciej.nabozny@cloudover.io> 02 Nov 2017 10:00:00 +0200
 

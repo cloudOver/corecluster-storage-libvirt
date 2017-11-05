@@ -43,7 +43,8 @@ class AgentThread(BaseAgent):
 
     def task_error(self, task, exception):
         storage = task.get_obj('Storage')
-        storage.set_state('locked')
+        if storage.state != 'disabled':
+            storage.set_state('locked')
         storage.save()
         super(AgentThread, self).task_error(task, exception)
 
