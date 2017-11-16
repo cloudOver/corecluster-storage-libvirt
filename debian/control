@@ -8,7 +8,7 @@ Homepage: http://cloudover.org/corecluster/
 
 Package: corecluster-storage-libvirt
 Architecture: all
-Depends: corenetwork wakeonlan
+Depends: corenetwork, wakeonlan
 Description: SSH storage for CoreCluster
  This package contains drivers and agents for CoreCluster to support
  simple ssh storage.
