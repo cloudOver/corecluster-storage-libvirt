@@ -1,2 +1,2 @@
 all:
-	python setup.py install --root=$(DESTDIR)
+	python3 setup.py install --root=$(DESTDIR)
