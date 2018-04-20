@@ -29,7 +29,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import base64
 import libvirt
-import urllib2
+import urllib
 from corecluster.agents.base_agent import BaseAgent
 from corecluster.models.core import Device
 from corecluster.exceptions.agent import *
@@ -118,7 +118,7 @@ class AgentThread(BaseAgent):
             raise TaskFatalError('libvirt_image_not_found', exception=e)
 
         try:
-            remote = urllib2.urlopen(task.get_prop('url'))
+            remote = urllib.urlopen(task.get_prop('url'))
         except Exception as e:
             raise TaskError('url_not_found', exception=e)
 
